@@ -8,7 +8,7 @@ import org.junit.Test;
 
 import static com.codeborne.selenide.Selenide.open;
 
-public class PersonalAreaTest {
+public class RedirectTest {
     public UserSteps userSteps;
     private RegistrationPage registrationPage;
     private EntrancePage entrancePage;
@@ -32,47 +32,47 @@ public class PersonalAreaTest {
     public void tearDown(){
         userSteps.deleteUser();
     }
-    @DisplayName("Нажатие кнопки 'Конструктор'. Редирект на главную")
     @Test
+    @DisplayName("Нажатие кнопки 'Конструктор'. Редирект на главную")
     public void clickingButtonConstructor(){
-        UserSteps userOperations = new UserSteps();
-        String fields = userOperations.createUser().values().toString();
+        UserSteps userStep = new UserSteps();
+        String fields = userStep.createUser().values().toString();
 
-        StringBuilder email = new StringBuilder(fields);
-        email.delete(45,46);
-        String fieldsEmail = email.delete(0,25).toString();
+        StringBuilder mail = new StringBuilder(fields);
+        mail.delete(45,46);
+        String fieldsMail = mail.delete(0,25).toString();
 
-        StringBuilder password = new StringBuilder(fields);
-        password.delete(0,1);
-        String fieldPassword = password.delete(10,46).toString();
+        StringBuilder pass = new StringBuilder(fields);
+        pass.delete(0,1);
+        String fieldPass = pass.delete(10,46).toString();
 
-        registrationPage.getClickButtonPersonalArea();
-        entrancePage.setClickAndInputValueFieldEmailAndPassword(fieldsEmail,fieldPassword);
-        entrancePage.getClickButtonEntrance();
-        registrationPage.getClickButtonPersonalArea();
-        entrancePage.getClickButtonConstructor();
-        ingredients.checkTransitionFillingSection();
+        registrationPage.clickButtonPersonalArea();
+        entrancePage.setClickAndInputValueFieldEmailAndPass(fieldsMail,fieldPass);
+        entrancePage.clickButtonEntrance();
+        registrationPage.clickButtonPersonalArea();
+        entrancePage.clickButtonConstructor();
+        ingredients.clickButtonFilling();
     }
 
-    @DisplayName("Нажатие лого 'Stellar burger'. Редирект на главную")
     @Test
+    @DisplayName("Нажатие лого 'Stellar burger'. Редирект на главную")
     public void clickLogoStellarBurgers(){
-        UserSteps userOperations = new UserSteps();
-        String fields = userOperations.createUser().values().toString();
+        UserSteps userStep = new UserSteps();
+        String fields = userStep.createUser().values().toString();
 
-        StringBuilder email = new StringBuilder(fields);
-        email.delete(45,46);
-        String fieldsEmail = email.delete(0,25).toString();
+        StringBuilder mail = new StringBuilder(fields);
+        mail.delete(45,46);
+        String fieldsMail = mail.delete(0,25).toString();
 
-        StringBuilder password = new StringBuilder(fields);
-        password.delete(0,1);
-        String fieldPassword = password.delete(10,46).toString();
+        StringBuilder pass = new StringBuilder(fields);
+        pass.delete(0,1);
+        String fieldPass = pass.delete(10,46).toString();
 
-        registrationPage.getClickButtonPersonalArea();
-        entrancePage.setClickAndInputValueFieldEmailAndPassword(fieldsEmail,fieldPassword);
-        entrancePage.getClickButtonEntrance();
-        registrationPage.getClickButtonPersonalArea();
-        entrancePage.getClickButtonStellarBurgers();
-        ingredients.checkTransitionFillingSection();
+        registrationPage.clickButtonPersonalArea();
+        entrancePage.setClickAndInputValueFieldEmailAndPass(fieldsMail,fieldPass);
+        entrancePage.clickButtonEntrance();
+        registrationPage.clickButtonPersonalArea();
+        entrancePage.clickLogoStellarBurgers();
+        ingredients.clickButtonFilling();
     }
 }

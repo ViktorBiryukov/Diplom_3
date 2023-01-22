@@ -5,33 +5,35 @@ import org.junit.Test;
 
 import static com.codeborne.selenide.Selenide.open;
 
-public class ConstructorTest {
-    @DisplayName("Test click on filling")
+public class ConstructorPageTest {
+
     @Test
+    @DisplayName("Проверка перехода в раздел 'Начинки'")
     public void testClickOnFilling(){
         IngredientsPage ingredients = open ("https://stellarburgers.nomoreparties.site",
                 IngredientsPage.class);
-        ingredients.checkTransitionFillingSection();
-        assertTrue("Неверный раздел",ingredients.checkIsRealFillingSection());
+        ingredients.clickButtonFilling();
+        assertTrue("Неверный раздел",ingredients.checkFillingSection());
 
     }
-    @DisplayName("Test click on sauce")
+
     @Test
+    @DisplayName("Проверка перехода в раздел 'Соусы'")
     public void testClickOnSauce(){
         IngredientsPage ingredients = open ("https://stellarburgers.nomoreparties.site",
                 IngredientsPage.class);
-        ingredients.checkTransitionFillingSection();
-        ingredients.checkTransitionSauceSection();
-        assertTrue("Неверный раздел",ingredients.checkIsRealSauceSection());
+        ingredients.clickButtonFilling();
+        ingredients.clickButtonSauce();
+        assertTrue("Неверный раздел",ingredients.checkSauceSection());
     }
-    @DisplayName("Test click on bun")
+
     @Test
+    @DisplayName("Проверка перехода в раздел 'Булки'")
     public void testClickOnBun(){
         IngredientsPage ingredients = open ("https://stellarburgers.nomoreparties.site",
                 IngredientsPage.class);
-        ingredients.checkTransitionFillingSection();
-
-        ingredients.checkTransitionBunSection();
-        assertTrue("Неверный раздел",ingredients.checkIsRealBunSection());
+        ingredients.clickButtonFilling();
+        ingredients.clickButtonBun();
+        assertTrue("Неверный раздел",ingredients.checkBunSection());
     }
 }
