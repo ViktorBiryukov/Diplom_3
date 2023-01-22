@@ -1,0 +1,7 @@
+RedirectTest.class
+PageObjects/IngredientsPage.class
+PageObjects/EntrancePage.class
+UserRegistrationTest.class
+UserLoginTest.class
+PageObjects/RegistrationPage.class
+ConstructorPageTest.class

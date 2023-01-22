@@ -4,14 +4,68 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0baa71b8-ddaf-4dea-b4b6-b9ebfa005a3d" name="Changes" comment="" />
+    <list default="true" id="0baa71b8-ddaf-4dea-b4b6-b9ebfa005a3d" name="Changes" comment="UI-тесты для дипломной работы 1.1">
+      <change afterPath="$PROJECT_DIR$/target/allure-results/1f91524f-c980-489d-ae4f-d1b77647ba4a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/29bb79d2-d882-420e-b910-c141e3407ed6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/3b957cb9-c8d1-4a6c-a4fc-7020de1e93c5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/61ebc00a-cc19-4710-b581-69bc6977afcf-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/7cacb02d-225c-4dda-be62-edf7116efcc1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/9f379662-01d7-42eb-ab5c-171856be9244-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/a54d7f0f-9412-47db-9879-42ccb95206e6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/aa2ee583-5aa8-441b-a4ee-b5a7b87d9f0b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/f19ba904-b13f-4baa-8c22-147a12c54548-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/f4049ea3-05f6-4ee4-8242-f7084e498cae-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/f4e3f151-d4e8-4d72-a2b0-d490e8c9906e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/fdad4fab-00b3-4be6-8c43-3dd8060c9cda-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Base.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Tokens.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/UserRegisterResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/UserSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/ConstructorPageTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/RedirectTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ConstructorPageTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-RedirectTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-UserLoginTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-UserRegistrationTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/UserLoginTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/UserRegistrationTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ConstructorPageTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/EntrancePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/IngredientsPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/RegistrationPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/RedirectTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/UserLoginTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/UserRegistrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Kg6JQ8K19sDJqHEW704749Rvsp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -22,9 +76,34 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ConstructorPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConstructorPageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ConstructorPageTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,6 +113,29 @@
       <option name="presentableId" value="Default" />
       <updated>1674383808691</updated>
     </task>
+    <task id="LOCAL-00001" summary="UI-тесты для дипломной работы 1.1">
+      <created>1674408032290</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674408032290</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UI-тесты для дипломной работы 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI-тесты для дипломной работы 1.1" />
   </component>
 </project>
